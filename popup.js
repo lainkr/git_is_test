@@ -2,7 +2,7 @@ $(document).ready(function(){
 
 	// 상단 즐겨찾기 버튼
 	$("#bookmark").click(function(){
-    	strTitle = "블로그로 | No.1 블로그마케팅 오픈마켓";
+    	strTitle = "블로그로 | No.1 블로그마케팅 오픈마켓! :)";
 		var url = "http://www.blogro.com/";
 		window.external.AddFavorite(url, strTitle);
     });
